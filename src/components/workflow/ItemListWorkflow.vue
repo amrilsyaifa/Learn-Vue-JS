@@ -30,7 +30,7 @@ function onEnd() {
 </script>
 
 <template>
-  <div class="flex flex-col gap-y-2 w-full">
+  <div class="flex flex-col gap-y-2 w-full" id="itemlist-workflow">
     <VueDraggable v-model="list" class="flex flex-col gap-y-2" @end="onEnd">
       <ItemWorkflow v-for="item in list" :key="item.id" :title="item.name" />
     </VueDraggable>

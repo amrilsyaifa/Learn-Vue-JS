@@ -20,10 +20,7 @@ const onChange = (value: WorkflowStep[], idx: number) => {
     <h1 class="font-bold mt-8">Step One: Define overall workflows</h1>
     <div class="mt-16 flex flex-col justify-between md:flex-row">
       <h3>Account Receivable Workflows</h3>
-      <div class="flex flex-row gap-2">
-        <BrdButton :title="`+ Add Workflow`" :onClick="onClick" />
-        <BrdButton :title="`Next`" :onClick="onClick" />
-      </div>
+      <BrdButton :title="`+ Add Workflow`" :onClick="onClick" />
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-24">
       <ItemListWorkflow
