@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import AboutPage from '../AboutView.vue'
+import AboutPage from '../WorkflowView.vue'
 
 describe('AboutPage.vue', () => {
   it('renders the page correctly', () => {
